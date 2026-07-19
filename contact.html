@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temi Titiloye | My Portfolio</title>
+    
+    <!-- Google Fonts: Poppins for a modern, clean look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-smooth-scroll="true" tabindex="0">
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <!-- Auto-Generated SVG Logo -->
+            <a class="navbar-brand d-flex align-items-center gap-2" href="/index.html">
+                <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" rx="20" fill="#00d2ff"/>
+                    <path d="M 25 35 L 75 35 M 50 35 L 50 75" stroke="#121212" stroke-width="12" stroke-linecap="round"/>
+                </svg>
+                <span class="fw-bold tracking-wide">Temi.<span class="text-primary-custom">Dev</span></span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-6" style="padding-top: 150px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h4 class="text-primary-custom text-uppercase tracking-wide mb-2">Get in touch with me</h4>
+                    <h5 class="display-5 fw-bold mb-4">Are you convinced about working together?</h5>
+                </div>
+
+                <div class="col-lg-8 text-left mb-5">
+                    <p class="text-main">Be it a complete website overhaul or a dynamic new web application, I'm just a message away!</p>
+                    <p>Reach out on socials:</p>
+                     <a target="_blank" href="https://linkedin.com/in/temi-titiloye" class="text-muted text-decoration-none fs-5 hover-primary"><i class="fab fa-linkedin"></i> temi-titiloye</a>
+                     <br>
+                    <a target="_blank" href="https://wa.me/+2347015140653" class="text-muted text-decoration-none fs-5 hover-primary"><i class="fab fa-whatsapp"></i> +2347015140653</a>
+                    <br>
+                    <a target="_blank" href="mailto:temititiloye@gmail.com/" class="text-muted text-decoration-none fs-5 hover-primary"><i class="fab fa-envelope"></i> temititiloye@gmail.com</a>
+                </div>
+
+            </div>
+
+            
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p>Or fill out the form below:</p>
+                    <form class="contact-form p-5 rounded-4 shadow-lg">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label text-main small">Your Name *</label>
+                                <input type="text" class="form-control bg-dark text-white border-secondary" id="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label text-main small">Email Address *</label>
+                                <input type="email" class="form-control bg-dark text-white border-secondary" id="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label text-main small">Project Details *</label>
+                                <textarea class="form-control bg-dark text-white border-secondary" id="message" rows="5" placeholder="Tell me about your project goals..." required></textarea>
+                            </div>
+                            <div class="col-12 mt-4 text-center">
+                                <button type="submit" class="btn btn-primary-custom btn-lg rounded-pill px-5 w-100">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 border-top border-secondary text-center">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="mb-2 mb-md-0 text-main small">&copy; 2026 Temi Titiloye. All rights reserved.</p>
+                <div class="social-links d-flex gap-3">
+                    <a target="_blank" href="https://github.com/Tracymao" class="text-muted text-decoration-none fs-5 hover-primary"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://linkedin.com/in/temi-titiloye" class="text-muted text-decoration-none fs-5 hover-primary"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://instagram.com/iamtracekid" class="text-muted text-decoration-none fs-5 hover-primary"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS for Navbar Scroll Effect -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
